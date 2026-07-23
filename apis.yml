@@ -1,8 +1,26 @@
 aid: alpha-finance
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/alpha-finance.png
 name: Alpha Finance
-description: 'Alpha Finance is a company surfaced as a portfolio company of multicoin-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: crypto-web3. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Alpha Finance Lab, now operating as Alpha Venture DAO, is a Web3 builders'' DAO
+  and DeFi studio backed by Multicoin Capital. It builds and incubates on-chain financial
+  applications, most notably Homora, a leveraged yield-farming protocol on Ethereum, BNB Chain
+  and Avalanche, along with an on-chain lending protocol and Alpha X derivatives work. Its stack is
+  delivered as audited Solidity smart contracts (with Python/JavaScript/TypeScript tooling and
+  integration docs) published on GitHub rather than as a hosted REST API; developer integration is
+  contract- and subgraph-oriented. This API Evangelist profile tracks the organization''s public
+  developer surface — documentation, GitHub organization, and blog. The legacy alphafinance.io domain
+  has been retired in favor of alphaventuredao.io.'
 url: https://raw.githubusercontent.com/api-evangelist/alpha-finance/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +28,20 @@ x-backed-by:
 - multicoin-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: 'No hosted REST API / OpenAPI surface: DeFi protocol delivered as on-chain smart contracts.
+  Rebranded Alpha Finance Lab -> Alpha Venture DAO; alphafinance.io retired -> alphaventuredao.io.'
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
 - Crypto Web3
+- DeFi
+- Blockchain
+- Smart Contracts
+- Yield Farming
+- DAO
+- Lending
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +49,18 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/alpha-finance-domain-security.yml
 - type: Website
-  url: https://alphafinance.io
+  url: https://alphaventuredao.io
+- type: Documentation
+  url: https://docs.alphaventuredao.io
+- type: Blog
+  url: https://blog.alphaventuredao.io
+- type: GitHubOrganization
+  url: https://github.com/AlphaFinanceLab
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
