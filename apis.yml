@@ -30,7 +30,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 x-note: 'No hosted REST API / OpenAPI surface: DeFi protocol delivered as on-chain smart contracts.
   Rebranded Alpha Finance Lab -> Alpha Venture DAO; alphafinance.io retired -> alphaventuredao.io.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
