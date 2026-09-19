@@ -44,6 +44,9 @@ x-note: 'No hosted REST API / OpenAPI surface: DeFi protocol delivered as on-cha
 specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-17'
+x-docs-platform: gitbook
+x-docs-platform-confidence: high
+x-docs-platform-checked: 2026-09-17
 tags:
 - Company
 - Crypto Web3
